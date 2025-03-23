@@ -1,0 +1,9 @@
+Lyrics Scraper - User Agreement
+===============================
+
+1. This software is free to use for educational and research purposes only. Commercial or illegal use is strictly prohibited.
+2. Users must comply with local laws when using this software. The developer assumes no legal responsibility for any misuse.
+3. This software relies on third-party tools (e.g., Selenium, ChromeDriver). If these tools change or stop working, the developer is not responsible for maintenance.
+4. Modification, resale, or redistribution of this software without permission is prohibited.
+
+By clicking the "Agree" button, you confirm that you accept all the terms in this agreement.

@@ -1,0 +1,15 @@
+/.venv
+/build
+/dataset.csv
+/dist
+/icon-256@2x.ico
+/library_dataset.csv
+/ls_v3.py
+/lyrics_Google.ui
+/lyrics_Google_v2.py
+/Lyrics_Spiders.spec
+/mini_library.csv
+/msi_pack_script.iss
+/process_dataset.py
+/Scraper_Gui_v2.py
+/So-High_v2.py
