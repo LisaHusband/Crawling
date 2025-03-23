@@ -19,3 +19,4 @@ Lyrics Scraper is an application that automates the process of fetching song lyr
 📌 Notes:
 - Google may limit automated scraping. If blocked, try changing your IP or reducing request frequency.
 - For educational and research purposes only. Do not use it for commercial or illegal activities.
+- No save function implemented, hahaha...
