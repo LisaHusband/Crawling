@@ -128,9 +128,9 @@
 ### Accepting Donations
 If you find **Lyrics Scraper** useful and would like to support further development, please consider making a donation. Your support helps maintain and improve the application.  
 - **Donation Options:**
-  - **PayPal:** <a href="https://paypal.me/YourPayPalID" style="text-decoration: line-through;">paypal.me/YourPayPalID</a>
-  - **Patreon:** <a href="https://patreon.com/YourPatreonPage" style="text-decoration: line-through;">patreon.com/YourPatreonPage</a>
-  - **Bitcoin:** <span style="text-decoration: line-through;">YourBitcoinAddress</span>
+  - **PayPal:** <a href="https://paypal.me/YourPayPalID" style="text-decoration: line-through;">paypal.me/YourPayPalID</a>Not available
+  - **Patreon:** <a href="https://patreon.com/YourPatreonPage" style="text-decoration: line-through;">patreon.com/YourPatreonPage</a>Not available
+  - **Bitcoin:** <span style="text-decoration: line-through;">YourBitcoinAddress</span>Not available
   - **ALIPAY/WeChat:** <p align="center">
   <img src="alp.jpg" alt="Image 1" width="216" height="324" />
   <img src="wc.png" alt="Image 2" width="223.6" height="304.8" />
