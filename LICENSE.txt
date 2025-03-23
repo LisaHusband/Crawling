@@ -1,9 +1,31 @@
-Lyrics Scraper - User Agreement
-===============================
+Lyrics Scraper - User License Agreement
 
-1. This software is free to use for educational and research purposes only. Commercial or illegal use is strictly prohibited.
-2. Users must comply with local laws when using this software. The developer assumes no legal responsibility for any misuse.
-3. This software relies on third-party tools (e.g., Selenium, ChromeDriver). If these tools change or stop working, the developer is not responsible for maintenance.
-4. Modification, resale, or redistribution of this software without permission is prohibited.
+1. Software Usage Scope
+This software is free to use for educational and research purposes only. Commercial or illegal use is strictly prohibited.
 
-By clicking the "Agree" button, you confirm that you accept all the terms in this agreement.
+2. User Responsibility
+- Users must comply with local laws while using this software.
+- The developer assumes no legal responsibility for any misuse of this software.
+
+3. Third-Party Tool Dependencies
+- This software relies on Selenium, ChromeDriver, and other third-party tools for web scraping.
+- If these tools change or stop working, the developer is not responsible for maintenance or updates.
+
+4. Prohibited Actions
+- Modification, resale, or redistribution of this software without permission is strictly prohibited.
+
+5. Disclaimer
+- This software is provided "as is", without any guarantees regarding availability, accuracy, or suitability.
+- Users assume full responsibility for using this software. The developer is not liable for any damages or losses resulting from its use.
+
+6. Source Code Notice
+- The source code of this software is open for reference, research, and learning purposes only.
+- Commercial use of the source code, in whole or in part, is strictly prohibited.
+- Any modifications or derivatives of the source code must comply with the original license terms.
+- By downloading, copying, or viewing the source code, you automatically agree to the terms of this license agreement.
+
+7. Source Code Repository
+- The official source code repository is available at:
+  [https://github.com/LisaHusband/Crawling]
+
+🔹 By clicking the "Agree" button during installation, or by downloading/viewing the source code, you confirm that you have read and accepted all terms in this agreement.

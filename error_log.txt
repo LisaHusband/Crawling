@@ -1,0 +1,500 @@
+Worker 0 run error: Length of values (1) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (1) does not match length of index (20)
+
+Worker 2 run error: Length of values (1) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (1) does not match length of index (20)
+
+Worker 1 run error: Length of values (1) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (1) does not match length of index (20)
+
+Worker 3 run error: Length of values (1) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (1) does not match length of index (20)
+
+Worker 4 run error: Length of values (0) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (0) does not match length of index (20)
+
+Worker 1 run error: Length of values (2) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (2) does not match length of index (20)
+
+Worker 2 run error: Length of values (3) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (3) does not match length of index (20)
+
+Worker 3 run error: Length of values (3) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (3) does not match length of index (20)
+
+Worker 4 run error: Length of values (3) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (3) does not match length of index (20)
+
+Worker 0 run error: Length of values (2) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 119, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (2) does not match length of index (20)
+
+Worker 1 run error: Length of values (2) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (2) does not match length of index (20)
+
+Worker 3 run error: Length of values (3) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (3) does not match length of index (20)
+
+Worker 4 run error: Length of values (3) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (3) does not match length of index (20)
+
+Worker 0 run error: Length of values (2) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (2) does not match length of index (20)
+
+Worker 2 run error: Length of values (0) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (0) does not match length of index (20)
+
+Worker 2 run error: Length of values (4) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (4) does not match length of index (20)
+
+Worker 4 run error: Length of values (5) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (5) does not match length of index (20)
+
+Worker 1 run error: Length of values (5) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (5) does not match length of index (20)
+
+Worker 3 run error: Length of values (5) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (5) does not match length of index (20)
+
+Worker 0 run error: Length of values (0) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 137, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (0) does not match length of index (20)
+
+Worker 2 run error: Length of values (7) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 126, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (7) does not match length of index (20)
+
+Worker 3 run error: Length of values (8) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 126, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (8) does not match length of index (20)
+
+Worker 4 run error: Length of values (8) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 126, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (8) does not match length of index (20)
+
+Worker 1 run error: Length of values (8) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 126, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (8) does not match length of index (20)
+
+Worker 0 run error: Length of values (9) does not match length of index (20)
+Traceback (most recent call last):
+  File "C:\Users\20716\Downloads\Crawling\single_crawl.py", line 126, in run
+    self.batch['lyrics'] = [lyr[2] for lyr in self.lyrics_list]
+    ~~~~~~~~~~^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4311, in __setitem__
+    self._set_item(key, value)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 4524, in _set_item
+    value, refs = self._sanitize_column(value)
+                  ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\frame.py", line 5266, in _sanitize_column
+    com.require_length_match(value, self.index)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\20716\Downloads\Crawling\.venv\Lib\site-packages\pandas\core\common.py", line 573, in require_length_match
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Length of values (9) does not match length of index (20)
+
